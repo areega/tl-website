@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="/images/tl1.jpeg" 
+                  src="tl1.jpeg" 
                   alt="Diana Towett, Licensed Counselling Psychologist" 
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
