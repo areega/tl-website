@@ -50,7 +50,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <img 
-                  src="tl1.jpeg" 
+                  src="tl_session.jpeg" 
                   alt="Diana Towett in her office" 
                   className="w-full h-full object-cover hover:scale-105 transition-all duration-700"
                 />
