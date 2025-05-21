@@ -71,7 +71,7 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-neutral-900 mb-4">
-            Client <span className="text-primary-600">Testimonials</span>
+            Client <span className="text-primary-900">Testimonials</span>
           </h2>
           <div className="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
           <p className="text-neutral-600">
@@ -101,7 +101,7 @@ const Testimonials: React.FC = () => {
                       "{testimonial.quote}"
                     </blockquote>
                     <div className="flex items-center">
-                      <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 mr-4">
+                      <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center text-primary-900 mr-4">
                         {testimonial.author.charAt(0)}
                       </div>
                       <div>
@@ -116,7 +116,7 @@ const Testimonials: React.FC = () => {
             
             {/* Navigation Arrows */}
             <button 
-              className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md text-primary-600 hover:text-primary-800 transition-colors focus:outline-none"
+              className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md text-primary-900 hover:text-primary-800 transition-colors focus:outline-none"
               onClick={goToPrev}
               aria-label="Previous testimonial"
             >
@@ -124,7 +124,7 @@ const Testimonials: React.FC = () => {
             </button>
             
             <button 
-              className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md text-primary-600 hover:text-primary-800 transition-colors focus:outline-none"
+              className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md text-primary-900 hover:text-primary-800 transition-colors focus:outline-none"
               onClick={goToNext}
               aria-label="Next testimonial"
             >

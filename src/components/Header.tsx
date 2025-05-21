@@ -44,7 +44,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <a href="#hero" className="flex items-center">
             <span className={`font-display font-bold text-xl sm:text-2xl transition-colors duration-300 ${
-              isScrolled ? 'text-primary-700' : 'text-primary-700'
+              isScrolled ? 'text-primary-900' : 'text-primary-900'
             }`}>
               Diana Towett
               <span className="block text-xs sm:text-sm font-primary font-normal text-neutral-600">
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
               <a
                 key={item.id}
                 href={item.href}
-                className={`text-sm font-medium transition-all duration-300 hover:text-primary-600 ${
+                className={`text-sm font-medium transition-all duration-300 hover:text-primary-900 ${
                   isScrolled ? 'text-neutral-700' : 'text-neutral-800'
                 }`}
               >
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
             ))}
             <a
               href="tel:+254720065635"
-              className="flex items-center text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-full transition-all duration-300"
+              className="flex items-center text-sm font-medium text-white bg-primary-900 hover:bg-primary-700 px-4 py-2 rounded-full transition-all duration-300"
             >
               <Phone className="h-4 w-4 mr-2" />
               Call Now
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="md:hidden text-neutral-800 hover:text-primary-600 transition-colors"
+            className="md:hidden text-neutral-800 hover:text-primary-900 transition-colors"
             aria-label={isMenuOpen ? 'Close Menu' : 'Open Menu'}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -94,7 +94,7 @@ const Header: React.FC = () => {
               <a
                 key={item.id}
                 href={item.href}
-                className="text-neutral-800 hover:text-primary-600 transition-colors py-2 border-b border-neutral-100"
+                className="text-neutral-800 hover:text-primary-900 transition-colors py-2 border-b border-neutral-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
             ))}
             <a
               href="tel:+254720065635"
-              className="flex items-center justify-center text-white bg-primary-600 hover:bg-primary-700 px-4 py-3 rounded-full transition-all duration-300 mt-4"
+              className="flex items-center justify-center text-white bg-primary-900 hover:bg-primary-700 px-4 py-3 rounded-full transition-all duration-300 mt-4"
               onClick={() => setIsMenuOpen(false)}
             >
               <Phone className="h-4 w-4 mr-2" />

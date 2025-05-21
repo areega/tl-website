@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
           {/* Text Content */}
           <div className={`max-w-xl transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-neutral-900 mb-6">
-              <span className="block text-primary-700">Diana Towett, MA</span>
+              <span className="block text-blue-900">Diana Towett, MA</span>
               <span className="relative overflow-hidden">
                 <span className="text-xl sm:text-2xl md:text-3xl font-normal text-neutral-700">
                   {typedText}
@@ -60,13 +60,13 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#about" 
-                className="btn bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 text-center animate-pulse"
+                className="btn bg-primary-900 hover:bg-primary-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 text-center animate-pulse"
               >
                 Learn More
               </a>
               <a 
                 href="#contact" 
-                className="btn bg-accent-500 hover:bg-accent-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 flex items-center justify-center"
+                className="btn bg-red-800 hover:bg-red-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 flex items-center justify-center"
               >
                 <Calendar className="h-5 w-5 mr-2" />
                 Book a Session

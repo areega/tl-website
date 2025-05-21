@@ -46,9 +46,9 @@ const FAQ: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-neutral-900 mb-4">
-            Frequently Asked <span className="text-primary-600">Questions</span>
+            Frequently Asked <span className="text-primary-900">Questions</span>
           </h2>
-          <div className="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-primary-800 mx-auto mb-6"></div>
           <p className="text-neutral-600">
             Answers to common questions about therapy and the counseling process
           </p>
@@ -110,7 +110,7 @@ const FAQ: React.FC = () => {
             </p>
             <a 
               href="#contact" 
-              className="inline-flex items-center text-primary-600 hover:text-primary-800 font-medium transition-colors"
+              className="inline-flex items-center text-primary-900 hover:text-primary-800 font-medium transition-colors"
             >
               Contact me for more information
               <svg 

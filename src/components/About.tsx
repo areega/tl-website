@@ -36,9 +36,9 @@ const About: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-neutral-900 mb-4">
-            About <span className="text-primary-600">Diana</span>
+            About <span className="text-primary-900">Diana</span>
           </h2>
-          <div className="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-primary-800 mx-auto mb-6"></div>
           <p className="text-neutral-600">
             Compassionate care from a licensed professional with a passion for healing
           </p>
@@ -82,7 +82,7 @@ const About: React.FC = () => {
 
             <div className="space-y-4">
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-primary-100 p-2 rounded-full text-primary-600 mr-4">
+                <div className="flex-shrink-0 bg-primary-100 p-2 rounded-full text-primary-900 mr-4">
                   <GraduationCap size={24} />
                 </div>
                 <div>
@@ -92,7 +92,7 @@ const About: React.FC = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-primary-100 p-2 rounded-full text-primary-600 mr-4">
+                <div className="flex-shrink-0 bg-primary-100 p-2 rounded-full text-primary-900 mr-4">
                   <Award size={24} />
                 </div>
                 <div>
@@ -102,7 +102,7 @@ const About: React.FC = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-primary-100 p-2 rounded-full text-primary-600 mr-4">
+                <div className="flex-shrink-0 bg-primary-100 p-2 rounded-full text-primary-900 mr-4">
                   <Heart size={24} />
                 </div>
                 <div>

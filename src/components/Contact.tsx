@@ -39,9 +39,9 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-neutral-900 mb-4">
-            Get in <span className="text-primary-600">Touch</span>
+            Get in <span className="text-primary-900">Touch</span>
           </h2>
-          <div className="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-primary-800 mx-auto mb-6"></div>
           <p className="text-neutral-600">
             Have questions or ready to schedule an appointment? Reach out today.
           </p>
@@ -56,14 +56,14 @@ const Contact: React.FC = () => {
             <div className="bg-white rounded-xl shadow-md p-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="flex items-start">
-                  <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                  <div className="bg-primary-100 p-3 rounded-full text-primary-900 mr-4">
                     <Phone size={24} />
                   </div>
                   <div>
                     <h4 className="font-medium text-neutral-800 mb-1">Phone</h4>
                     <a 
                       href="tel:+254720065635" 
-                      className="text-neutral-600 hover:text-primary-600 transition-colors"
+                      className="text-neutral-600 hover:text-primary-900 transition-colors"
                     >
                       +254 720 065 635
                     </a>
@@ -71,14 +71,14 @@ const Contact: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                  <div className="bg-primary-100 p-3 rounded-full text-primary-900 mr-4">
                     <Mail size={24} />
                   </div>
                   <div>
                     <h4 className="font-medium text-neutral-800 mb-1">Email</h4>
                     <a 
                       href="mailto:dianatowett@gmail.com" 
-                      className="text-neutral-600 hover:text-primary-600 transition-colors"
+                      className="text-neutral-600 hover:text-primary-900 transition-colors"
                     >
                       dianatowett@gmail.com
                     </a>
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                 </div>
                 
                 {/* <div className="flex items-start">
-                  <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                  <div className="bg-primary-100 p-3 rounded-full text-primary-900 mr-4">
                     <MapPin size={24} />
                   </div>
                   <div>
@@ -99,7 +99,7 @@ const Contact: React.FC = () => {
                 </div> */}
                 
                 {/* <div className="flex items-start">
-                  <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                  <div className="bg-primary-100 p-3 rounded-full text-primary-900 mr-4">
                     <Calendar size={24} />
                   </div>
                   <div>
@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
                 </p>
                 <a 
                   href="tel:+254720065635" 
-                  className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300"
+                  className="inline-flex items-center bg-primary-900 hover:bg-primary-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300"
                 >
                   <Phone className="h-4 w-4 mr-2" />
                   Call to Book

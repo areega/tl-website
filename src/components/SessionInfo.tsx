@@ -36,9 +36,9 @@ const SessionInfo: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-neutral-900 mb-4">
-            Session <span className="text-primary-600">Information</span>
+            Session <span className="text-primary-900">Information</span>
           </h2>
-          <div className="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-primary-800 mx-auto mb-6"></div>
           <p className="text-neutral-600">
             Flexible options to fit your schedule and preferences
           </p>
@@ -53,7 +53,7 @@ const SessionInfo: React.FC = () => {
           >
             <div className="p-8">
               <div className="flex items-center mb-6">
-                <Laptop className="w-10 h-10 text-primary-600 mr-4" />
+                <Laptop className="w-10 h-10 text-primary-900 mr-4" />
                 <h3 className="text-2xl font-semibold text-neutral-800">
                   Virtual Sessions
                 </h3>
